@@ -1,0 +1,38 @@
+:root {
+  --color-bg: #0f1419;
+  --color-bg-hover: rgba(255, 255, 255, 0.06);
+  --color-fg: #e6edf3;
+  --color-fg-muted: #8b949e;
+  --color-border: #30363d;
+  --color-accent: #58a6ff;
+  --font-sans: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-mono: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  background: var(--color-bg);
+  color: var(--color-fg);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+}
